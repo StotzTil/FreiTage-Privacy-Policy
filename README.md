@@ -58,13 +58,15 @@ werden verarbeitet: eine von RevenueCat erzeugte **anonyme App-Nutzer-Kennung**,
 die Freischaltung ist anonym. Die Zahlung wickeln ausschließlich Apple/Google ab; wir erhalten keine Zahlungsdaten.
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).*
 
-### 3.2 Absturz- und Fehlerberichte
-Die App nutzt **Sentry**, um Abstürze und Fehler automatisch zu melden, damit wir sie beheben können. Ein Fehlerbericht
-kann den **Fehler und den Stacktrace**, **Geräte- und Betriebssysteminformationen**, die **App-Version** sowie
-**Breadcrumbs** enthalten (ein kurzes Protokoll der App-Ereignisse vor dem Fehler, das auch die genutzten
-Datumsangaben/Bildschirme umfassen kann). Wir senden **nicht** absichtlich deinen Namen, deine E-Mail oder deinen
-genauen Standort.
-*Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Stabilität und Sicherheit der App).*
+### 3.2 Absturz- und Fehlerberichte (Opt-in)
+Die App kann **Sentry** nutzen, um Abstürze und Fehler zu melden, damit wir sie beheben können. Dies ist
+**standardmäßig deaktiviert**; es wird nichts übermittelt, sofern du es nicht **ausdrücklich aktivierst** – beim
+ersten Start oder in den Einstellungen. Wenn aktiviert, kann ein Fehlerbericht den **Fehler und den Stacktrace**,
+**Geräte- und Betriebssysteminformationen**, die **App-Version** sowie **Breadcrumbs** enthalten (ein kurzes Protokoll
+der App-Ereignisse vor dem Fehler, das auch die genutzten Datumsangaben/Bildschirme umfassen kann). Wir senden
+**nicht** absichtlich deinen Namen, deine E-Mail oder deinen genauen Standort. Du kannst dies jederzeit in den
+Einstellungen wieder deaktivieren.
+*Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung); jederzeit durch Deaktivieren widerrufbar.*
 
 ### 3.3 Feiertage und Schulferien
 Zur Anzeige von Feiertagen und Schulferien fragt die App Daten von **feiertage-api.de** und **schulferien-api.de** ab
@@ -72,15 +74,7 @@ und sendet dabei nur das **Jahr** und den Code deines ausgewählten **Bundesland
 die **IP-Adresse** deines Geräts für diese Dienste technisch sichtbar. Planerinhalte werden nicht übermittelt.
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Kernfunktion).*
 
-### 3.4 Regionserkennung beim ersten Start
-**Nur beim ersten Start** ruft die App — sofern noch kein Bundesland gewählt wurde — **ipapi.co** auf, um anhand deines
-ungefähren Standorts einen Vorschlag zu machen. Dabei wird die **öffentliche IP-Adresse** deines Geräts an ipapi.co
-übertragen, die ein Land/eine Region zurückgibt. Das Ergebnis wird lokal gespeichert; du kannst es jederzeit in den
-Einstellungen ändern, und der Aufruf wird danach **nicht** wiederholt.
-*Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer komfortablen Ersteinrichtung); du kannst
-das Ergebnis jederzeit überschreiben.*
-
-### 3.5 Gerätekalender-Synchronisierung (optional)
+### 3.4 Gerätekalender-Synchronisierung (optional)
 Wenn du die Kalendersynchronisierung aktivierst, **schreibt** die App deine Abwesenheitseinträge (Titel, Daten,
 optionale Notiz) in den von dir gewählten Gerätekalender. Dies erfordert die Kalenderberechtigung und ist
 **standardmäßig deaktiviert**. Einmal geschrieben, werden die Einträge von deinem Kalenderanbieter (z. B. Apple,
@@ -89,7 +83,7 @@ Zwecken.
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung); widerrufbar durch Deaktivieren der Synchronisierung oder
 der Systemberechtigung.*
 
-### 3.6 Erinnerungen / Benachrichtigungen
+### 3.5 Erinnerungen / Benachrichtigungen
 Wenn du Erinnerungen aktivierst, plant die App **lokale Benachrichtigungen** auf deinem Gerät (z. B. vor einem Urlaub
 oder bevor Resturlaub verfällt). Diese werden **vollständig auf dem Gerät** erzeugt und ausgeliefert; es verlassen
 keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
@@ -100,7 +94,7 @@ keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
 ## 4. App-Berechtigungen
 
 **Android:**
-- `INTERNET` — Käufe (RevenueCat), Fehlerberichte (Sentry) sowie Feiertags-/Regionsabfragen.
+- `INTERNET` — Käufe (RevenueCat), Fehlerberichte (Sentry) sowie Feiertags-/Schulferienabfragen.
 - `POST_NOTIFICATIONS` — Anzeige lokaler Erinnerungen (Android 13+).
 - `RECEIVE_BOOT_COMPLETED` — erneutes Planen der Erinnerungen nach einem Neustart des Geräts.
 - `READ_CALENDAR`, `WRITE_CALENDAR` — Schreiben deiner Abwesenheiten in den Gerätekalender (nur bei aktivierter
@@ -122,13 +116,12 @@ keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
 | Google LLC | Google-Play-Abrechnung, Gerätekalender | https://policies.google.com/privacy |
 | feiertage-api.de | Feiertagsdaten | https://feiertage-api.de/ |
 | schulferien-api.de | Schulferiendaten | https://schulferien-api.de/ |
-| ipapi.co | Regionserkennung beim ersten Start (IP) | https://ipapi.co/privacy/ |
 
 ---
 
 ## 6. Übermittlung in Drittländer
 
-Einige der oben genannten Anbieter (z. B. RevenueCat, Sentry, ipapi.co, Apple, Google) verarbeiten Daten
+Einige der oben genannten Anbieter (z. B. RevenueCat, Sentry, Apple, Google) verarbeiten Daten
 möglicherweise auf Servern **außerhalb der EU/des EWR**, unter anderem in den USA. Soweit dies geschieht, stützen sie
 sich auf geeignete Garantien wie die EU-Standardvertragsklauseln und/oder geltende Angemessenheitsrahmen, wie in ihren
 jeweiligen Datenschutzerklärungen beschrieben.
@@ -142,7 +135,7 @@ jeweiligen Datenschutzerklärungen beschrieben.
   Wiederherstellung deines Kaufs erforderlich ist.
 - **Fehlerberichte** werden von Sentry für einen begrenzten Zeitraum gemäß dessen Aufbewahrungseinstellungen
   gespeichert.
-- Die Feiertags-/Regionsdienste erhalten nur vorübergehende Anfragen; wir selbst führen dazu keine serverseitigen
+- Die Feiertags-/Schulferiendienste erhalten nur vorübergehende Anfragen; wir selbst führen dazu keine serverseitigen
   Protokolle.
 
 ---
@@ -152,7 +145,19 @@ jeweiligen Datenschutzerklärungen beschrieben.
 Du hast das Recht auf **Auskunft**, **Berichtigung**, **Löschung**, **Einschränkung** und **Datenübertragbarkeit**
 sowie das Recht, der auf berechtigten Interessen beruhenden Verarbeitung zu **widersprechen**. Da wir **kein
 Kontosystem** betreiben und keine serverseitige Kopie deiner Planerdaten vorhalten, liegen die meisten Daten direkt in
-deiner Kontrolle auf dem Gerät (Einträge löschen oder App deinstallieren). 
+deiner Kontrolle auf dem Gerät (Einträge löschen oder App deinstallieren).
+
+Soweit eine Verarbeitung auf deiner **Einwilligung** beruht (z. B. Absturzberichte, Kalendersynchronisierung,
+Benachrichtigungen), kannst du diese **jederzeit mit Wirkung für die Zukunft widerrufen** (Art. 7 Abs. 3 DSGVO) – etwa
+durch Deaktivieren der jeweiligen Funktion in den Einstellungen oder durch Entzug der Systemberechtigung. Die
+Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt davon unberührt.
+
+Du hast außerdem das Recht, dich bei einer **Datenschutzaufsichtsbehörde** zu beschweren, insbesondere in dem
+EU-Mitgliedstaat deines Aufenthaltsorts, deines Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes (Art. 77
+DSGVO). Die für uns zuständige Aufsichtsbehörde ist:
+**[AUFSICHTSBEHÖRDE]**.
+
+Zur Ausübung deiner Rechte kannst du uns jederzeit unter **[KONTAKT-E-MAIL]** kontaktieren.
 
 ---
 
