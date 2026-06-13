@@ -11,17 +11,17 @@ Google Play Console eintragen. Dieses Dokument ist eine Vorlage und keine Rechts
 rechtlich prüfen lassen.
 -->
 
-# Datenschutzerklärung für [APP-NAME]
+# Datenschutzerklärung für FreiTage: Urlaub & Brückentage
 
-**Stand:** [STAND-DATUM]
+**Stand:** 13.06.2026
 
-Diese Erklärung beschreibt, welche Daten [APP-NAME] (die „App") verarbeitet, zu welchem Zweck und welche Rechte du
+Diese Erklärung beschreibt, welche Daten FreiTage: Urlaub & Brückentage (die „App") verarbeitet, zu welchem Zweck und welche Rechte du
 hast. Sie ist in erster Linie für Nutzer in der Europäischen Union / im EWR nach der
 **Datenschutz-Grundverordnung (DSGVO)** verfasst; ein kurzer Hinweis für Nutzer außerhalb der EU findet sich in
 Abschnitt 11.
 
 **Verantwortlicher:**
-[VERANTWORTLICHER / FIRMA], [POSTANSCHRIFT] — E-Mail: [KONTAKT-E-MAIL]
+Til Stotz, Hofbühlstraße 15 72555 Metzingen, dirksturz97@gmail.com
 
 ---
 
@@ -157,7 +157,7 @@ EU-Mitgliedstaat deines Aufenthaltsorts, deines Arbeitsplatzes oder des Orts des
 DSGVO). Die für uns zuständige Aufsichtsbehörde ist:
 **[AUFSICHTSBEHÖRDE]**.
 
-Zur Ausübung deiner Rechte kannst du uns jederzeit unter **[KONTAKT-E-MAIL]** kontaktieren.
+Zur Ausübung deiner Rechte kannst du uns jederzeit unter dirksturz97@gmail.com kontaktieren.
 
 ---
 
@@ -180,12 +180,13 @@ Wir können diese Erklärung anpassen, wenn sich die App ändert. Die aktuelle F
 Es gelten weltweit dieselben Praktiken: Wir betreiben kein Konto, führen keine Analysen durch, belassen deine
 Planerdaten auf deinem Gerät und nutzen nur die in Abschnitt 5 genannten Anbieter für Käufe, Fehlerberichte und
 Feiertagsabfragen. Je nach Land (z. B. UK, Schweiz, Kalifornien/USA oder andere Regionen) hast du möglicherweise
-ähnliche Rechte auf Auskunft oder Löschung; kontaktiere uns unter **[KONTAKT-E-MAIL]**, um sie auszuüben.
+ähnliche Rechte auf Auskunft oder Löschung; kontaktiere uns unter dirksturz97@gmail.com, um sie auszuüben.
 
 ---
 
 ## 12. Kontakt
 
-[VERANTWORTLICHER / FIRMA]
-[POSTANSCHRIFT]
-E-Mail: [KONTAKT-E-MAIL]
+Til Stotz
+Hofbühlstraße 15, 72555 Metzingen
+Deutschland
+E-Mail: dirksturz97@gmail.com
