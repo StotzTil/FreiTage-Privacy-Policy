@@ -27,7 +27,7 @@ Til Stotz, Hofbühlstraße 15 72555 Metzingen, dirksturz97@gmail.com
 
 ## 1. Zusammenfassung
 
-[APP-NAME] ist ein Urlaubs- und Abwesenheitsplaner und ist datenschutzfreundlich aufgebaut:
+FreiTage: Urlaub & Brückentage ist ein Urlaubs- und Abwesenheitsplaner und ist datenschutzfreundlich aufgebaut:
 
 - **Kein Nutzerkonto, kein Login, keine Registrierung.**
 - **Keine Analyse-, Werbe- oder Tracking-SDKs.**
