@@ -1,27 +1,14 @@
-<!--
-VOR DER VERÖFFENTLICHUNG ALLE PLATZHALTER AUSFÜLLEN:
-  [APP-NAME]                 – öffentlicher/Store-Name der App
-  [VERANTWORTLICHER / FIRMA] – du oder dein Unternehmen (der/die „Verantwortliche")
-  [POSTANSCHRIFT]            – für die DSGVO erforderlich (Impressums-/Kontaktanschrift)
-  [KONTAKT-E-MAIL]           – funktionierende Datenschutz-Kontaktadresse
-  [STAND-DATUM]              – Veröffentlichungsdatum
-  [AUFSICHTSBEHÖRDE]         – deine zuständige Datenschutzaufsichtsbehörde (z. B. das Landes-DSB)
-Anschließend die gerenderte Datei unter einer öffentlichen URL hosten und diese URL in App Store Connect und der
-Google Play Console eintragen. Dieses Dokument ist eine Vorlage und keine Rechtsberatung — vor der Veröffentlichung
-rechtlich prüfen lassen.
--->
-
 # Datenschutzerklärung für FreiTage: Urlaub & Brückentage
 
-**Stand:** 13.06.2026
+**Stand:** 27.09.2026
 
-Diese Erklärung beschreibt, welche Daten FreiTage: Urlaub & Brückentage (die „App") verarbeitet, zu welchem Zweck und welche Rechte du
-hast. Sie ist in erster Linie für Nutzer in der Europäischen Union / im EWR nach der
+Diese Erklärung beschreibt, welche Daten FreiTage: Urlaub & Brückentage (die „App") verarbeitet, zu welchem Zweck und
+welche Rechte du hast. Sie ist in erster Linie für Nutzer in der Europäischen Union / im EWR nach der
 **Datenschutz-Grundverordnung (DSGVO)** verfasst; ein kurzer Hinweis für Nutzer außerhalb der EU findet sich in
 Abschnitt 11.
 
 **Verantwortlicher:**
-Til Stotz, Hofbühlstraße 15 72555 Metzingen, dirksturz97@gmail.com
+Til Stotz, Hofbühlstraße 15, 72555 Metzingen, Deutschland — E-Mail: dirksturz97@gmail.com
 
 ---
 
@@ -33,8 +20,8 @@ FreiTage: Urlaub & Brückentage ist ein Urlaubs- und Abwesenheitsplaner und ist 
 - **Keine Analyse-, Werbe- oder Tracking-SDKs.**
 - **Deine Planungsdaten bleiben auf deinem Gerät.** Abwesenheiten, Einstellungen und Urlaubskontingente werden lokal
   gespeichert und **niemals an uns oder einen Server übertragen**.
-- Wir setzen nur wenige **Drittanbieter** (Auftragsverarbeiter) für bestimmte Funktionen ein: In-App-Käufe,
-  Absturzberichte sowie die Abfrage von Feiertagen/Schulferien. Diese sind in Abschnitt 5 aufgeführt.
+- Wir setzen nur wenige **Drittanbieter** für bestimmte Funktionen ein: In-App-Käufe, Absturzberichte sowie die
+  Abfrage von Feiertagen/Schulferien. Diese sind in Abschnitt 5 aufgeführt.
 
 ---
 
@@ -51,6 +38,7 @@ Eine von dir erstellte Sicherungs-/Exportdatei liegt in deiner Verantwortung.
 ## 3. Daten, die wir verarbeiten, Zweck und Rechtsgrundlage
 
 ### 3.1 In-App-Käufe („Pro")
+
 Für den Verkauf und die Wiederherstellung der optionalen **Pro**-Freischaltung nutzt die App **RevenueCat** zusammen
 mit den Abrechnungssystemen des **Apple App Store** / **Google Play**. Beim Starten oder Wiederherstellen eines Kaufs
 werden verarbeitet: eine von RevenueCat erzeugte **anonyme App-Nutzer-Kennung**, **Kauf-/Beleginformationen**, eine
@@ -59,6 +47,7 @@ die Freischaltung ist anonym. Die Zahlung wickeln ausschließlich Apple/Google a
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).*
 
 ### 3.2 Absturz- und Fehlerberichte (Opt-in)
+
 Die App kann **Sentry** nutzen, um Abstürze und Fehler zu melden, damit wir sie beheben können. Dies ist
 **standardmäßig deaktiviert**; es wird nichts übermittelt, sofern du es nicht **ausdrücklich aktivierst** – beim
 ersten Start oder in den Einstellungen. Wenn aktiviert, kann ein Fehlerbericht den **Fehler und den Stacktrace**,
@@ -69,12 +58,14 @@ Einstellungen wieder deaktivieren.
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung); jederzeit durch Deaktivieren widerrufbar.*
 
 ### 3.3 Feiertage und Schulferien
+
 Zur Anzeige von Feiertagen und Schulferien fragt die App Daten von **feiertage-api.de** und **schulferien-api.de** ab
 und sendet dabei nur das **Jahr** und den Code deines ausgewählten **Bundeslandes**. Wie bei jeder Internetanfrage ist
 die **IP-Adresse** deines Geräts für diese Dienste technisch sichtbar. Planerinhalte werden nicht übermittelt.
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Kernfunktion).*
 
 ### 3.4 Gerätekalender-Synchronisierung (optional)
+
 Wenn du die Kalendersynchronisierung aktivierst, **schreibt** die App deine Abwesenheitseinträge (Titel, Daten,
 optionale Notiz) in den von dir gewählten Gerätekalender. Dies erfordert die Kalenderberechtigung und ist
 **standardmäßig deaktiviert**. Einmal geschrieben, werden die Einträge von deinem Kalenderanbieter (z. B. Apple,
@@ -84,9 +75,10 @@ Zwecken.
 der Systemberechtigung.*
 
 ### 3.5 Erinnerungen / Benachrichtigungen
+
 Wenn du Erinnerungen aktivierst, plant die App **lokale Benachrichtigungen** auf deinem Gerät (z. B. vor einem Urlaub
-oder bevor Resturlaub verfällt). Diese werden **vollständig auf dem Gerät** erzeugt und ausgeliefert; es verlassen
-keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
+oder bevor Resturlaub verfällt). Diese werden vollständig auf dem Gerät erzeugt und ausgeliefert; es verlassen
+**keine Benachrichtigungsdaten das Gerät** und es ist kein Push-Server beteiligt.
 *Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung über die System-Benachrichtigungsberechtigung).*
 
 ---
@@ -94,6 +86,7 @@ keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
 ## 4. App-Berechtigungen
 
 **Android:**
+
 - `INTERNET` — Käufe (RevenueCat), Fehlerberichte (Sentry) sowie Feiertags-/Schulferienabfragen.
 - `POST_NOTIFICATIONS` — Anzeige lokaler Erinnerungen (Android 13+).
 - `RECEIVE_BOOT_COMPLETED` — erneutes Planen der Erinnerungen nach einem Neustart des Geräts.
@@ -101,12 +94,13 @@ keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
   Synchronisierung).
 
 **iOS:**
-- Kalenderzugriff — Schreiben deiner Abwesenheiten in den Gerätekalender (nur bei aktivierter Synchronisierung).
-- Benachrichtigungen — Anzeige lokaler Erinnerungen (wird bei Aktivierung angefragt).
+
+- **Kalenderzugriff** — Schreiben deiner Abwesenheiten in den Gerätekalender (nur bei aktivierter Synchronisierung).
+- **Benachrichtigungen** — Anzeige lokaler Erinnerungen (wird bei Aktivierung angefragt).
 
 ---
 
-## 5. Drittanbieter (Auftragsverarbeiter)
+## 5. Drittanbieter und Empfänger
 
 | Anbieter | Zweck | Datenschutzerklärung |
 |---|---|---|
@@ -121,10 +115,10 @@ keine Benachrichtigungsdaten das Gerät und es ist kein Push-Server beteiligt.
 
 ## 6. Übermittlung in Drittländer
 
-Einige der oben genannten Anbieter (z. B. RevenueCat, Sentry, Apple, Google) verarbeiten Daten
-möglicherweise auf Servern **außerhalb der EU/des EWR**, unter anderem in den USA. Soweit dies geschieht, stützen sie
-sich auf geeignete Garantien wie die EU-Standardvertragsklauseln und/oder geltende Angemessenheitsrahmen, wie in ihren
-jeweiligen Datenschutzerklärungen beschrieben.
+Einige der oben genannten Anbieter (z. B. RevenueCat, Sentry, Apple, Google) verarbeiten Daten möglicherweise auf
+Servern **außerhalb der EU/des EWR**, unter anderem in den USA. Soweit dies geschieht, stützen sie sich auf geeignete
+Garantien wie die EU-Standardvertragsklauseln und/oder geltende Angemessenheitsrahmen, wie in ihren jeweiligen
+Datenschutzerklärungen beschrieben.
 
 ---
 
@@ -135,36 +129,40 @@ jeweiligen Datenschutzerklärungen beschrieben.
   Wiederherstellung deines Kaufs erforderlich ist.
 - **Fehlerberichte** werden von Sentry für einen begrenzten Zeitraum gemäß dessen Aufbewahrungseinstellungen
   gespeichert.
-- Die Feiertags-/Schulferiendienste erhalten nur vorübergehende Anfragen; wir selbst führen dazu keine serverseitigen
-  Protokolle.
+- Die **Feiertags-/Schulferiendienste** erhalten nur vorübergehende Anfragen; wir selbst führen dazu keine
+  serverseitigen Protokolle.
 
 ---
 
 ## 8. Deine Rechte (DSGVO)
 
-Du hast das Recht auf **Auskunft**, **Berichtigung**, **Löschung**, **Einschränkung** und **Datenübertragbarkeit**
-sowie das Recht, der auf berechtigten Interessen beruhenden Verarbeitung zu **widersprechen**. Da wir **kein
-Kontosystem** betreiben und keine serverseitige Kopie deiner Planerdaten vorhalten, liegen die meisten Daten direkt in
-deiner Kontrolle auf dem Gerät (Einträge löschen oder App deinstallieren).
+Du hast das Recht auf **Auskunft, Berichtigung, Löschung, Einschränkung und Datenübertragbarkeit** sowie das Recht,
+der auf berechtigten Interessen beruhenden Verarbeitung zu **widersprechen**. Da wir kein Kontosystem betreiben und
+keine serverseitige Kopie deiner Planerdaten vorhalten, liegen die meisten Daten direkt in deiner Kontrolle auf dem
+Gerät (Einträge löschen oder App deinstallieren).
 
 Soweit eine Verarbeitung auf deiner **Einwilligung** beruht (z. B. Absturzberichte, Kalendersynchronisierung,
-Benachrichtigungen), kannst du diese **jederzeit mit Wirkung für die Zukunft widerrufen** (Art. 7 Abs. 3 DSGVO) – etwa
-durch Deaktivieren der jeweiligen Funktion in den Einstellungen oder durch Entzug der Systemberechtigung. Die
+Benachrichtigungen), kannst du diese jederzeit mit Wirkung für die Zukunft **widerrufen** (Art. 7 Abs. 3 DSGVO) –
+etwa durch Deaktivieren der jeweiligen Funktion in den Einstellungen oder durch Entzug der Systemberechtigung. Die
 Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt davon unberührt.
 
 Du hast außerdem das Recht, dich bei einer **Datenschutzaufsichtsbehörde** zu beschweren, insbesondere in dem
-EU-Mitgliedstaat deines Aufenthaltsorts, deines Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes (Art. 77
-DSGVO). Die für uns zuständige Aufsichtsbehörde ist:
-**[AUFSICHTSBEHÖRDE]**.
+EU-Mitgliedstaat deines Aufenthaltsorts, deines Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes
+(Art. 77 DSGVO). Die für uns zuständige Aufsichtsbehörde ist:
 
-Zur Ausübung deiner Rechte kannst du uns jederzeit unter dirksturz97@gmail.com kontaktieren.
+Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg
+Lautenschlagerstraße 20, 70173 Stuttgart
+https://www.baden-wuerttemberg.datenschutz.de
+
+Zur Ausübung deiner Rechte kannst du uns jederzeit unter **dirksturz97@gmail.com** kontaktieren.
 
 ---
 
 ## 9. Kinder
 
-[APP-NAME] ist eine Produktivitäts-App für ein allgemeines Publikum und **richtet sich nicht an Kinder** unter dem in
-deiner Rechtsordnung erforderlichen Einwilligungsalter. Wir erheben wissentlich keine Daten von Kindern.
+FreiTage: Urlaub & Brückentage ist eine Produktivitäts-App für ein allgemeines Publikum und **richtet sich nicht an
+Kinder** unter dem in deiner Rechtsordnung erforderlichen Einwilligungsalter. Wir erheben wissentlich keine Daten von
+Kindern.
 
 ---
 
@@ -180,13 +178,14 @@ Wir können diese Erklärung anpassen, wenn sich die App ändert. Die aktuelle F
 Es gelten weltweit dieselben Praktiken: Wir betreiben kein Konto, führen keine Analysen durch, belassen deine
 Planerdaten auf deinem Gerät und nutzen nur die in Abschnitt 5 genannten Anbieter für Käufe, Fehlerberichte und
 Feiertagsabfragen. Je nach Land (z. B. UK, Schweiz, Kalifornien/USA oder andere Regionen) hast du möglicherweise
-ähnliche Rechte auf Auskunft oder Löschung; kontaktiere uns unter dirksturz97@gmail.com, um sie auszuüben.
+ähnliche Rechte auf Auskunft oder Löschung; kontaktiere uns unter **dirksturz97@gmail.com**, um sie auszuüben.
 
 ---
 
 ## 12. Kontakt
 
 Til Stotz
-Hofbühlstraße 15, 72555 Metzingen
+Hofbühlstraße 15
+72555 Metzingen
 Deutschland
 E-Mail: dirksturz97@gmail.com
